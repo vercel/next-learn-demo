@@ -6,7 +6,7 @@ const layoutStyle = {
   border: '1px solid #DDD'
 }
 
-export default function Layout() {
+export default function Layout(props) {
   return (
     <div style={layoutStyle}>
       <Header />
