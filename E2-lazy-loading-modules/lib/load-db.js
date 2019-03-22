@@ -1,5 +1,6 @@
 export default async function loadDb() {
-  const firebase = require('firebase')
+  const firebase = require('firebase/app')
+  require('firebase/database')
 
   try {
     firebase.initializeApp({
