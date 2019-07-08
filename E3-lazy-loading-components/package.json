@@ -18,7 +18,7 @@
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "cross-env": "^5.2.0",
     "marked": "^0.6.1",
-    "next": "^8.0.3",
+    "next": "^9.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-highlight": "^0.12.0"
