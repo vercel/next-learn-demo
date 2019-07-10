@@ -1,11 +1,12 @@
-import { withRouter } from 'next/router'
-import Layout from '../components/MyLayout.js'
+import { useRouter } from 'next/router'
 import Markdown from 'react-markdown'
+import Layout from '../../components/MyLayout.js'
 
-function Post(props) {
+export default () => {
+  const router = useRouter()
   return (
     <Layout>
-      <h1>{props.router.query.title}</h1>
+      <h1>{router.query.id}</h1>
       <div className="markdown">
         <Markdown
           source={`
@@ -16,7 +17,7 @@ And we can have a title as well.
 ### This is a title
 
 And here's the content.
-   `}
+      `}
         />
       </div>
       <style jsx global>{`
@@ -42,5 +43,3 @@ And here's the content.
     </Layout>
   )
 }
-
-export default withRouter(Post)
