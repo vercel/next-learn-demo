@@ -10,8 +10,8 @@ export default function Post() {
       <ul>
         {postList.map((value, index) => (
           <li key={index}>
-            <Link>
-              <a href={`post/${value}`}>{value}</a>
+            <Link href={`post/${value}`}>
+              <a>{value}</a>
             </Link>
           </li>
         ))}
