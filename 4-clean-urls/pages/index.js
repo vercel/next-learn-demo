@@ -1,17 +1,15 @@
-import Layout from '../components/MyLayout.js'
-import Link from 'next/link'
+import Layout from '../components/MyLayout.js';
+import Link from 'next/link';
 
-function PostLink(props) {
-  return (
-    <li>
-      <Link href={`/post?title=${props.title}`}>
-        <a>{props.title}</a>
-      </Link>
-    </li>
-  )
-}
+const PostLink = props => (
+  <li>
+    <Link href={`/post?title=${props.title}`}>
+      <a>{props.title}</a>
+    </Link>
+  </li>
+);
 
-export default function Index() {
+export default function Blog() {
   return (
     <Layout>
       <h1>My Blog</h1>
@@ -21,5 +19,5 @@ export default function Index() {
         <PostLink title="Deploy apps with Zeit" />
       </ul>
     </Layout>
-  )
+  );
 }
