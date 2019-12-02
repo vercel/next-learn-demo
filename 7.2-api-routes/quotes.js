@@ -1,0 +1,18 @@
+export const quotes = [
+  {
+    'quote': 'Write tests, not too many, mostly integration',
+    'author': 'Guillermo Rauch'
+  },
+  {
+    'quote': 'Where there is a will, there is a way',
+    'author': 'Unknown'
+  },
+  {
+    'quote': 'You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.',
+    'author': 'Unknown'
+  },
+  {
+    'quote': 'Every passing moment, we are nearing death and a new Javascript framework',
+    'author': 'Amandeep Singh'
+  }
+]
