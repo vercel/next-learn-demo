@@ -1,18 +1,11 @@
-import useFetch from '../utils/useFetch'
-
 const Index = () => {
-  const { data, error } = useFetch('/api/randomQuote')
-
-  if ( !data || !data.quote || error ) {
-    return <div>Loading...</div>
-  }
 
   return (
     <main className="center">
       <div className="quote">
-        {data && data.quote}
+        Write tests, not too many, mostly integration
       </div>
-      <span className="author"> - {data && data.author} </span>
+      <span className="author"> - Guillermo Rauch </span>
 
       <style jsx>{`
         main {
