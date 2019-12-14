@@ -1,6 +1,14 @@
 export const quotes = [
   {
+    'quote': 'Lord Is One',
+    'author': 'Sri Guru Nanak Dev Ji'
+  },
+  {
     'quote': 'Write tests, not too many, mostly integration',
+    'author': 'Guillermo Rauch'
+  },
+  {
+    'quote': 'The future is serverless',
     'author': 'Guillermo Rauch'
   },
   {
