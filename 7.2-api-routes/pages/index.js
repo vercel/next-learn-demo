@@ -1,10 +1,7 @@
-const Index = () => {
-
+export default function Index() {
   return (
     <main className="center">
-      <div className="quote">
-        Write tests, not too many, mostly integration
-      </div>
+      <div className="quote">Write tests, not too many, mostly integration</div>
       <span className="author"> - Guillermo Rauch </span>
 
       <style jsx>{`
@@ -16,7 +13,7 @@ const Index = () => {
         }
         .quote {
           font-family: cursive;
-          color: #E243DE;
+          color: #e243de;
           font-size: 24px;
           padding-bottom: 10px;
         }
@@ -29,5 +26,3 @@ const Index = () => {
     </main>
   )
 }
-
-export default Index
