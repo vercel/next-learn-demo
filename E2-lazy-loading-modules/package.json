@@ -1,8 +1,6 @@
 {
   "name": "hello-next",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -11,8 +9,6 @@
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
     "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@next/bundle-analyzer": "latest",
